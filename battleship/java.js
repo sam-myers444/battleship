@@ -47,7 +47,9 @@ function gameboard() {
       board[x][y] = "hit";
       boardHits.push([x, y]);
 
-      if (isGameOver()) console.log("game is over");
+      if (isGameOver()) { 
+        console.log("game is over"); 
+      }
       return "hit";
     }
 
